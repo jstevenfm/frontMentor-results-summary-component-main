@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+main {
+  flex-direction: row;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  box-shadow: 0 10px 20px 0 hsla(234, 85%, 45%, 0.1);
+}
+
+.result {
+  border-radius: 30px;
+  max-width: 300px;
+}
+.categories {
+  border-radius: 30px;
+}
+.categories--sections {
+  width: 275px;
+}
