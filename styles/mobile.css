@@ -120,11 +120,13 @@ main {
 }
 .categories--sections__score {
   color: var(--dark-gray-blue);
+  font-weight: 700;
 }
 
 .categories--sections__range {
-  color: var(--pale-blue);
-  opacity: 0.8;
+  color: var(--dark-gray-blue);
+  opacity: 0.6;
+  font-weight: 500;
 }
 
 .reaction {
@@ -142,4 +144,19 @@ main {
 .visual {
   color: var(--cobalt-blue);
   background-color:  hsla(234, 85%, 45%, 0.1);
+}
+
+button {
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 15px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  border: none;
+  background-color: var(--dark-gray-blue);
+  color: var(--white);
+  font-weight: 700;
 }
